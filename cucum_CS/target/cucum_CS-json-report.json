@@ -1,0 +1,325 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2019-09-30T10:54:20.846Z",
+        "line": 4,
+        "name": "Register User",
+        "description": "",
+        "id": "register-to-testmeapp;register-user",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 29389428700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Sign Up",
+            "match": {
+              "location": "Stepdefine.sign_Up()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 346431200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Enter Username as \"fxfhhb3gf\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"fxfhhb3gf\"",
+                  "offset": 18
+                }
+              ],
+              "location": "Stepdefine.enter_Username_as(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 149965700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Enter Firstname as \"divya\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"divya\"",
+                  "offset": 19
+                }
+              ],
+              "location": "Stepdefine.enter_Firstname_as(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 112214800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Enter LastName as \"yenna\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"yenna\"",
+                  "offset": 18
+                }
+              ],
+              "location": "Stepdefine.enter_LastName_as(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 142426700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Enter Password as \"password444\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"password444\"",
+                  "offset": 18
+                }
+              ],
+              "location": "Stepdefine.enter_Password_as(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 136548200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Confirm your password \"password444\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"password444\"",
+                  "offset": 22
+                }
+              ],
+              "location": "Stepdefine.confirm_your_password(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 110764500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Select Gender as \"female\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"female\"",
+                  "offset": 17
+                }
+              ],
+              "location": "Stepdefine.select_Gender_as(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 257199300,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Enter Email as \"divyareddy@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"divyareddy@gmail.com\"",
+                  "offset": 15
+                }
+              ],
+              "location": "Stepdefine.enter_Email_as(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 126621100,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Enter Mobile Number as \"9090458764\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"9090458764\"",
+                  "offset": 23
+                }
+              ],
+              "location": "Stepdefine.enter_Mobile_Number_as(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 139228200,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Enter DOB as \"04/04/1999\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"04/04/1999\"",
+                  "offset": 13
+                }
+              ],
+              "location": "Stepdefine.enter_DOB_as(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 97697500,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Enter Address \"Hyderabad\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Hyderabad\"",
+                  "offset": 14
+                }
+              ],
+              "location": "Stepdefine.enter_Address(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 107738600,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Select Security question",
+            "match": {
+              "location": "Stepdefine.select_Security_question()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 118910500,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Answer the question as \"Hyderabad\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Hyderabad\"",
+                  "offset": 23
+                }
+              ],
+              "location": "Stepdefine.answer_the_question_as(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 317239300,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "CLick on Register",
+            "match": {
+              "location": "Stepdefine.click_on_Register()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@casestudy1"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-09-30T10:54:52.439Z",
+        "line": 28,
+        "name": "User Login",
+        "description": "",
+        "id": "register-to-testmeapp;user-login;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 82500,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Alex has registered into TestMeApp",
+            "match": {
+              "location": "Stepdefine.alex_has_registered_into_TestMeApp()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4445679300,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Alex login with below set of \"lalitha\" and \"password123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"lalitha\"",
+                  "offset": 29
+                },
+                {
+                  "val": "\"password123\"",
+                  "offset": 43
+                }
+              ],
+              "location": "Stepdefine.alex_login_with_below_set_of_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 220128200,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Alex login successfully into TestMeApp",
+            "match": {
+              "location": "Stepdefine.alex_login_successfully_into_TestMeApp()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@casestudy2"
+          }
+        ]
+      }
+    ],
+    "name": "Register to TestMeApp",
+    "description": "",
+    "id": "register-to-testmeapp",
+    "keyword": "Feature",
+    "uri": "file:Features_casestudy/fcs1.feature",
+    "tags": []
+  }
+]
