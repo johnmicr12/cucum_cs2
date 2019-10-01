@@ -1,9 +1,9 @@
 Feature: Register to TestMeApp
 
   @casestudy1
-  Scenario: User Registration
+  Scenario: Register user
     Given Sign Up
-    And Enter Username as "fxfhhb3gfhh"
+    And Enter Username as "fxf4lkjhgfgfdg"
     And Enter Firstname as "divya"
     And Enter LastName as "yenna"
     And Enter Password as "password444"
@@ -28,8 +28,11 @@ Feature: Register to TestMeApp
       | lalitha  | password123 |
 
   @casestudy4
-  Scenario: Add to Cart
-    Given Alex has registered into TestMeApp
-    And he search for a product
-    And he click on find details
-    Then Check whether cart option is present or not
+  Scenario: Add to cart
+    Given signin with credentials "lalitha" and "password123"
+    And search for a product
+    And click on find details
+    And click on add to cart
+    And click on cart
+    Then check if the added product is in cart or not
+    And click on proceed to checkout

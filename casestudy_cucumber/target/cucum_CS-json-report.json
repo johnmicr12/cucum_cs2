@@ -3,9 +3,9 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2019-09-30T11:39:34.059Z",
+        "start_timestamp": "2019-09-30T12:27:12.833Z",
         "line": 4,
-        "name": "Register User",
+        "name": "Register user",
         "description": "",
         "id": "register-to-testmeapp;register-user",
         "type": "scenario",
@@ -13,7 +13,7 @@
         "steps": [
           {
             "result": {
-              "duration": 36378511500,
+              "duration": 144119726800,
               "status": "passed"
             },
             "line": 5,
@@ -25,15 +25,15 @@
           },
           {
             "result": {
-              "duration": 204989300,
+              "duration": 219963800,
               "status": "passed"
             },
             "line": 6,
-            "name": "Enter Username as \"fxfhhb3gfh\"",
+            "name": "Enter Username as \"fxf4lkjhgfgfdgh\"",
             "match": {
               "arguments": [
                 {
-                  "val": "\"fxfhhb3gfh\"",
+                  "val": "\"fxf4lkjhgfgfdgh\"",
                   "offset": 18
                 }
               ],
@@ -43,7 +43,7 @@
           },
           {
             "result": {
-              "duration": 133201900,
+              "duration": 120865800,
               "status": "passed"
             },
             "line": 7,
@@ -61,7 +61,7 @@
           },
           {
             "result": {
-              "duration": 134647500,
+              "duration": 118912000,
               "status": "passed"
             },
             "line": 8,
@@ -79,7 +79,7 @@
           },
           {
             "result": {
-              "duration": 194131900,
+              "duration": 129145600,
               "status": "passed"
             },
             "line": 9,
@@ -97,7 +97,7 @@
           },
           {
             "result": {
-              "duration": 182067000,
+              "duration": 122188600,
               "status": "passed"
             },
             "line": 10,
@@ -115,7 +115,7 @@
           },
           {
             "result": {
-              "duration": 102648000,
+              "duration": 94070600,
               "status": "passed"
             },
             "line": 11,
@@ -133,7 +133,7 @@
           },
           {
             "result": {
-              "duration": 263728500,
+              "duration": 235083400,
               "status": "passed"
             },
             "line": 12,
@@ -151,7 +151,7 @@
           },
           {
             "result": {
-              "duration": 130902100,
+              "duration": 121433900,
               "status": "passed"
             },
             "line": 13,
@@ -169,7 +169,7 @@
           },
           {
             "result": {
-              "duration": 138604700,
+              "duration": 157785700,
               "status": "passed"
             },
             "line": 14,
@@ -187,7 +187,7 @@
           },
           {
             "result": {
-              "duration": 152124900,
+              "duration": 112348800,
               "status": "passed"
             },
             "line": 15,
@@ -205,7 +205,7 @@
           },
           {
             "result": {
-              "duration": 126267200,
+              "duration": 113790600,
               "status": "passed"
             },
             "line": 16,
@@ -217,7 +217,7 @@
           },
           {
             "result": {
-              "duration": 141061900,
+              "duration": 202391400,
               "status": "passed"
             },
             "line": 17,
@@ -235,7 +235,7 @@
           },
           {
             "result": {
-              "duration": 911938400,
+              "duration": 561329300,
               "status": "passed"
             },
             "line": 18,
@@ -253,7 +253,7 @@
         ]
       },
       {
-        "start_timestamp": "2019-09-30T11:40:13.289Z",
+        "start_timestamp": "2019-09-30T12:29:39.314Z",
         "line": 28,
         "name": "User Login",
         "description": "",
@@ -263,7 +263,7 @@
         "steps": [
           {
             "result": {
-              "duration": 66800,
+              "duration": 55400,
               "status": "passed"
             },
             "line": 22,
@@ -275,7 +275,7 @@
           },
           {
             "result": {
-              "duration": 4545072900,
+              "duration": 6941468600,
               "status": "passed"
             },
             "line": 23,
@@ -297,7 +297,7 @@
           },
           {
             "result": {
-              "duration": 213252200,
+              "duration": 183870300,
               "status": "passed"
             },
             "line": 24,
@@ -313,13 +313,124 @@
             "name": "@casestudy2"
           }
         ]
+      },
+      {
+        "start_timestamp": "2019-09-30T12:29:46.440Z",
+        "line": 31,
+        "name": "Add to cart",
+        "description": "",
+        "id": "register-to-testmeapp;add-to-cart",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchSessionException: no such session\n  (Driver info: chromedriver\u003d2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform\u003dWindows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027HDC4-D-CC5WXJ2\u0027, ip: \u002710.247.150.95\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_161\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.544315 (730aa6a5fdba15..., userDataDir: C:\\Users\\A07136~1.16\\AppDat...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 77.0.3865.90, webStorageEnabled: true}\nSession ID: d719e1c8c09d8afa61cf74b5ff0d9610\n*** Element info: {Using\u003dxpath, value\u003d//a[contains(text(),\u0027SignIn\u0027)]}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)\r\n\tat org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat stepdef_casestudy.Stepdefine.signin_with_credentials_and(Stepdefine.java:159)\r\n\tat ✽.signin with credentials \"lalitha\" and \"password123\"(file:Features_casestudy/feature_casestudy.feature:32)\r\n",
+              "duration": 122098500,
+              "status": "failed"
+            },
+            "line": 32,
+            "name": "signin with credentials \"lalitha\" and \"password123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"lalitha\"",
+                  "offset": 24
+                },
+                {
+                  "val": "\"password123\"",
+                  "offset": 38
+                }
+              ],
+              "location": "Stepdefine.signin_with_credentials_and(String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 43100,
+              "status": "skipped"
+            },
+            "line": 33,
+            "name": "search for a product",
+            "match": {
+              "location": "Stepdefine.search_for_a_product()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 27100,
+              "status": "skipped"
+            },
+            "line": 34,
+            "name": "click on find details",
+            "match": {
+              "location": "Stepdefine.click_on_find_details()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 30700,
+              "status": "skipped"
+            },
+            "line": 35,
+            "name": "click on add to cart",
+            "match": {
+              "location": "Stepdefine.click_on_add_to_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 18100,
+              "status": "skipped"
+            },
+            "line": 36,
+            "name": "click on cart",
+            "match": {
+              "location": "Stepdefine.click_on_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 21400,
+              "status": "skipped"
+            },
+            "line": 37,
+            "name": "check if the added product is in cart or not",
+            "match": {
+              "location": "Stepdefine.check_if_the_added_product_is_in_cart_or_not()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 17400,
+              "status": "skipped"
+            },
+            "line": 38,
+            "name": "click on proceed to checkout",
+            "match": {
+              "location": "Stepdefine.click_on_proceed_to_checkout()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@casestudy4"
+          }
+        ]
       }
     ],
     "name": "Register to TestMeApp",
     "description": "",
     "id": "register-to-testmeapp",
     "keyword": "Feature",
-    "uri": "file:Features_casestudy/fcs1.feature",
+    "uri": "file:Features_casestudy/feature_casestudy.feature",
     "tags": []
   }
 ]
